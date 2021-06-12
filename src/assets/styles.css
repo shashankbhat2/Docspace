@@ -29,15 +29,10 @@ a{
     margin: 20px 0px;
 }
 .doclist_base{
-    height: 400px;
+    height: auto;
 }
 .popup_footer{
    background-color: #F2F2F2;
-   text-align: left;
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
 }
 .popup_heading{
     font-family: 'Poppins', sans-serif;
@@ -57,4 +52,15 @@ a{
 }
 .pinned__base{
     margin: 10px 0px;
+}
+.docs_fallback{
+    color: #4a4a4a;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.doc_btn{
+    margin: 0px 5px;
 }
