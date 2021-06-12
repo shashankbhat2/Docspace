@@ -1,0 +1,60 @@
+.popup__base{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #4a4a4a;
+    text-decoration: none !important;
+}
+.logo{
+    margin: 10px 0px;
+}
+.credit_banner{
+    background-color: #F2F2F2;
+}
+.ext_credits{
+    text-align: center;
+    font-size: 14px !important;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0px;
+}
+.ext_credits > a{
+    margin: 0px 5px;
+}
+.git_icon{
+    float: right;
+    color: #4a4a4a;
+    margin: 20px 0px;
+}
+.doclist_base{
+    height: 400px;
+}
+.popup_footer{
+   background-color: #F2F2F2;
+   text-align: left;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+.popup_heading{
+    font-family: 'Poppins', sans-serif;
+    color: #4a4a4a;
+    margin: 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.popup_input{
+    margin-bottom: 5px;
+    width: auto;
+}
+.add_button{
+    background-color: #2F80ED !important;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px 0px;
+}
+.pinned__base{
+    margin: 10px 0px;
+}
