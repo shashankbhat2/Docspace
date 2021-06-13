@@ -47,14 +47,14 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
-                include: path.resolve(__dirname, 'src'),
+                include: path.resolve(__dirname, 'src/assets'),
                 use: [
                     'file-loader'
                 ]
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
-                include: path.resolve(__dirname, 'src'),
+                include: path.resolve(__dirname, 'src/assets'),
                 use: ['file-loader']
             }
         ]

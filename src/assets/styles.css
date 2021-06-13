@@ -9,16 +9,16 @@ a{
     text-decoration: none !important;
 }
 .logo{
+    width: 120px;
     margin: 10px 0px;
 }
 .credit_banner{
     background-color: #F2F2F2;
 }
 .ext_credits{
-    text-align: center;
-    font-size: 14px !important;
+    font-size: 12px !important;
     font-family: 'Poppins', sans-serif;
-    margin: 10px 0px;
+    margin: 5px 10px;
 }
 .ext_credits > a{
     margin: 0px 5px;
@@ -26,7 +26,7 @@ a{
 .git_icon{
     float: right;
     color: #4a4a4a;
-    margin: 20px 0px;
+    margin: 20px 10px;
 }
 .doclist_base{
     height: auto;
@@ -63,4 +63,10 @@ a{
 
 .doc_btn{
     margin: 0px 5px;
+}
+.ext_version{
+    font-size: 8px;
+    margin: 10px 10px;
+    float: right;
+    color: #4a4a4a;
 }

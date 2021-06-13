@@ -1,25 +1,23 @@
 import React, { Fragment } from 'react';
-import { Container, Row, Col } from 'react-bootstrap'
 import Logo from '../assets/logo.svg'
 import {FaGithub} from 'react-icons/fa'
+import {SimpleGrid, Box } from "@chakra-ui/react"
 
 const Banner = () => {
     return(
         <Fragment>
-            <div className="credit_banner">
-                <Container>
-                    <Row md={3}>
-                        <Col>
-                           <img src={Logo} className="logo"></img>
-                        </Col>
-                            <Col>
+            <Box className="credit_banner">
+                <SimpleGrid columns={2}>
+                        <Box m={3}>
+                            <img src={Logo} className="logo"></img>
+                        </Box>
+                        <Box>
                             <a href="https://github.com/shashankbhat2" target="_blank">
                                 <FaGithub size="24px" className="git_icon"></FaGithub>
                             </a>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
+                        </Box>
+                </SimpleGrid>
+            </Box>
         </Fragment>
     )
 }

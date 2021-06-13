@@ -1,6 +1,6 @@
 {
     "manifest_version" : 2,
-    "name":"CoronaImmune",
+    "name":"Docspace",
     "permissions": ["storage"],
     "version": "0.1.0",
     "browser_action": {
